@@ -1,1 +1,0 @@
-# sphinix_documentation
