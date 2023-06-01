@@ -1,29 +1,37 @@
-.. Lumache documentation master file, created by
-   sphinx-quickstart on Wed May 17 10:21:02 2023.
+.. dzne-documentation documentation master file, created by
+   sphinx-quickstart on Thu Jun  1 13:26:57 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to DZNE documentation!
-==============================
+Welcome to FastSurfer_documentation!
+====================================
 
-**DZNE** (/lu'make/) is a research institute.  `DZNE research about's <https://www-dzne-de.translate.goog/ueber-uns/uebersicht/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en>`_ 
+**DZNE** is a research institute, *fastsurfer* is developed by developers at this institute.
 
+https://www.dzne.de/
 
 .. note::
 
-   This DZNE project is under active development.
+   This documentation_project is under active development.
 
-.. cross reference to specific part of the documentation.
+Check out the :doc:`usage` section for further information.
 
-Check out the :doc:`usage` section for further information, including how to 
+Including how to :ref:`install <Installation>` the project.
 
-:ref:`install <installation>` the project.
 
-Find out more about :ref:`special receipe<recipies>`
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-Find out about example :func:`<my_function(x,y)>`
 
-Find out more about :ref:`python syntax<python_example>`
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
 
 Contents
 --------
@@ -31,4 +39,4 @@ Contents
 .. toctree::
 
    usage
-   api
+   Codes

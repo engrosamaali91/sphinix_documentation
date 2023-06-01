@@ -10,11 +10,9 @@ To use Lumache, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install numpy
 
 
-
-.. _recipies:
 
 Creating recipes
 ----------------
@@ -42,22 +40,9 @@ will raise an exception.
    Raised if the kind is invalid.
 
 
-.. _python_example:
-
-Python code example
--------------------
-
-This is an example of how to write documentation using Sphinx.
-
-Here is some code:
-
-.. code-block:: python
-
-   def my_function(x, y):
-       """Add two numbers."""
-       return x + y
-
-You can reference this code using the :func:`my_function` syntax.
+>>> import lumache
+>>> lumache.get_random_ingredients()
+['shells', 'gorgonzola', 'parsley']
 
 
 

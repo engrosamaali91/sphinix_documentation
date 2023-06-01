@@ -13,30 +13,30 @@ sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Lumache'
-copyright = '2023, Graziella'
-author = 'Graziella'
-release = '0.1'
+project = 'dzne-documentation'
+copyright = '2023, Osama'
+author = 'Osama'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['sphinx.ext.duration',
               'sphinx.ext.doctest',
-              'sphinx.ext.autosummary',
-]
+              'sphinx.ext.autodoc']
 
 templates_path = ['_templates']
 exclude_patterns = []
 
 
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-# html_theme = 'furo'
+html_theme = 'alabaster'
 html_static_path = ['_static']
 
 
-# EPUB options
-epub_show_urls = 'footnote'
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+#
+html_theme = 'classic'
+
